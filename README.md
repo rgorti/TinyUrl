@@ -1,7 +1,7 @@
 # TinyUrl / URLShortner
 
-URLShortner(TinyURL) API - Allows users to store/retrieve tinyURLs for the original/source URLS <br />
-Requirements:
+URLShortner(TinyURL) API - Design and implement URL shortening service, service that takes long url and generates short and unique url
+ <br />
 1. Returns a URL that is shorter than the original.<br /> 
 2. Must store the original URL.<br /> 
 3. Newly generated URL must be able to link to the stored original. <br />
