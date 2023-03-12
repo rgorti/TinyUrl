@@ -11,10 +11,10 @@ class QuickstartUser(HttpUser):
 
     def tiny_url(self):
 
-        r1 = self.client.get("/tinyurl/09f0bcc", allow_redirects=False)
+        r1 = self.client.get("/tinyurl/{shortUrlid}", allow_redirects=False)
 
-        r2 = self.client.get("/tinyurl/ac6bb66", allow_redirects=False)
+        r2 = self.client.get("/tinyurl/{shortUrlid}/{customurlid}", allow_redirects=False)
 
     def on_start(self):
 
-        self.client.post("/tinyurl/create", json={"sourceUrl": "https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm"})
+        self.client.post("/tinyurl/create", json={"sourceUrl": {Any source URL})
