@@ -1,6 +1,6 @@
-# TinyUrl / URLShortner
+# TinyUrl / URLShortner 
 
-URLShortner(TinyURL) API - Design and implement URL shortening service, service that takes long url and generates short and unique url
+URLShortner(TinyURL) API - Design and implement URL shortening service, service that takes long url and generates short and unique url. Tiny url is extremely handy and less error prone to share through sms/slack/tweets. 
  <br />
 1. Returns a URL that is shorter than the original.<br /> 
 2. Must store the original URL.<br /> 
