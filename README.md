@@ -2,12 +2,12 @@
 
 URLShortner(TinyURL) API - Allows users to store/retrieve tinyURLs for the original/source URLS<br />
 
-(-) Returns a URL that is shorter than the original.<br /> 
-(-) Must store the original URL.<br /> 
-(-) Newly generated URL must be able to link to the stored original. <br />
-(-) Shortened URL should allow redirects. <br />
-(-) Must support custom short URLs. <br />
-(-) Must support many requests at once. <br />
+(*) Returns a URL that is shorter than the original.<br /> 
+(*) Must store the original URL.<br /> 
+(*) Newly generated URL must be able to link to the stored original. <br />
+(*) Shortened URL should allow redirects. <br />
+(*) Must support custom short URLs. <br />
+(*) Must support many requests at once. <br />
 
 #Build a Craft Spring Boot TinyUrl API with features:
 
