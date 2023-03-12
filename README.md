@@ -36,8 +36,12 @@ Google Guava Library
 3. Setup MySql DB. 
 4. Run the script to setup db locally (/src/resources/setupdb.sql). 
 5. Modify application.properties as per your db. 
-6. Start SpringBoot application on port 8080.  
-
+6. Start SpringBoot application on port 8080. 
+ ``` 
+ mvn clean install --settings /{userHome}/tinyURLCraft/tinyURL/settings.xml
+ 
+ Start SpringBoot application on port 8080. (start application directly using IDE or command prompt: mvn spring-boot:run application name)
+```
 #To Test the Application Locally 
 1. Use Postman/ Browser.  
 2. Set Content-type: application/json. 
