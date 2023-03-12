@@ -17,4 +17,4 @@ class QuickstartUser(HttpUser):
 
     def on_start(self):
 
-        self.client.post("/tinyurl/create", json={"sourceUrl": {Any source URL})
+        self.client.post("/tinyurl/create", json={"sourceUrl": "{Any source URL}")
