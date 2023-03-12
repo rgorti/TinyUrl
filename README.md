@@ -9,20 +9,20 @@ URLShortner(TinyURL) API - Design and implement URL shortening service, service 
 5. Must support custom short URLs. <br />
 6. Must support many requests at once. <br />
 
-#Build Spring Boot TinyUrl API with features:
+# Build Spring Boot TinyUrl API with features:
 
 1. User can create TinyUrl for the original/source URL
 2. Users can create CustomUrl for the original/soruce URL
 3. User are redirected to the original/source url by providing TinyUrl link
 4. User are redirected to the original/source url by providing CustomUrl link
 
-#Technology used
+# Technology used
 
 Spring Boot
 MySQL
 Google Guava Library
 
-#APIs
+# APIs
 ```
 1. POST /tinyurl/create  	--- Create a shortURL for the original/source URL. 
 2. POST /tinyurl/create  	---Creates a shortURL and custom URL for the original/source URL (by providing customUrl in the Request Body). 
@@ -30,7 +30,7 @@ Google Guava Library
 4. GET /tinyurl/{shortUrl}/{customUrl} --- Redirects the original URL by providing shortUrl and customUrl. 
 ```
 
-#To Setup the application Locally
+# To Setup the application Locally
 1. Clone the git Repo. 
 2. Use ID Intellij/STS/Eclipse. 
 3. Setup MySql DB. 
@@ -42,7 +42,7 @@ Google Guava Library
  
  Start SpringBoot application on port 8080. (start application directly using IDE or command prompt: mvn spring-boot:run application name)
 ```
-#To Test the Application Locally 
+# To Test the Application Locally 
 1. Use Postman/ Browser.  
 2. Set Content-type: application/json. 
 3. Provide Json Request Body for the POST requests. 
