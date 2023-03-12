@@ -93,8 +93,8 @@ public class TinyUrlServiceImpl implements TinyUrlService{
             throw new InvalidUrlException("The given source URL is not Valid. Please provide valid sourceurl");
         }
         if (customUrl != null) {
-                if (customUrl.length() < 5)
-                    throw new InvalidUrlException("The given custom URL is too short. Minimum number of characters for custom url is 5 char");
+                if ((customUrl.length() < 5) || (customUrl.length() > 12))
+                    throw new InvalidUrlException("The given custom URL is too short or exceeds limit. Min number of characters for custom url is 5 char and Max to 12");
                 if (existsCustom(customUrl)) {
                     throw new UrlAlreadyExistsException("The given Custom URL already exists in the Database. Choose different custom name");
                 }
