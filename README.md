@@ -33,8 +33,8 @@ Google Guava Library
 # To Setup the application Locally
 1. Clone the git Repo. 
 2. Use ID Intellij/STS/Eclipse. 
-3. Setup MySql DB. 
-4. Run the script to setup db locally (/src/resources/setupdb.sql). 
+3. Setup MySql DB. - Both Server and client MySqlWorkbench
+4. Run the script to setup db locally (/src/main/resources/setupdb.sql). 
 5. Modify application.properties as per your db. 
 6. Start SpringBoot application on port 8080. 
  ``` 
