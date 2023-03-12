@@ -24,10 +24,10 @@ Google Guava Library
 
 # APIs
 ```
-1. POST /tinyurl/create  	--- Create a shortURL for the original/source URL. 
-2. POST /tinyurl/create  	---Creates a shortURL and custom URL for the original/source URL (by providing customUrl in the Request Body). 
-3. GET /tinyurl/{shortUrl} --- Redirects to the original URL by getting shortURL. 
-4. GET /tinyurl/{shortUrl}/{customUrl} --- Redirects the original URL by providing shortUrl and customUrl. 
+1. POST /tinyurl/create                 --- Create a shortURL for the original/source URL. 
+2. POST /tinyurl/create  	              --- Creates a shortURL and custom URL for the original/source URL (by providing customUrl in the Request Body). 
+3. GET /tinyurl/{shortUrl}              --- Redirects to the original URL by getting shortURL. 
+4. GET /tinyurl/{shortUrl}/{customUrl}  --- Redirects the original URL by providing shortUrl and customUrl. 
 ```
 
 # To Setup the application Locally
