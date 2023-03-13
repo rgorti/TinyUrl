@@ -84,5 +84,5 @@ on Error: Respective error messages shown to the user
 1. install locust locally (https://docs.locust.io/en/0.12.2/installation.html)
 2. Modify src/resources/locustfile.py for valid inputs
 3. Open a terminal and run the command $locust --host="http://localhost:8080" --locustfile locustfile.py
-4. Open Browser  http://0.0.0.0:8089/ - users can provide inputs (No of Users: 100, Spawn Rate: 1, hsot: http://localhost:8080)
+4. Open Browser  http://0.0.0.0:8089/ - users can provide inputs (No of Users: 100, Spawn Rate: 1, host: http://localhost:8080)
 
