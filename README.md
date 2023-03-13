@@ -18,9 +18,9 @@ URLShortner(TinyURL) API - Design and implement URL shortening service, service 
 
 # Technology used
 
-Spring Boot
-MySQL
-Google Guava Library
+Spring Boot<br />
+MySQL<br />
+Google Guava Library<br />
 
 # APIs
 ```
